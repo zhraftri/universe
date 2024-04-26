@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e3b5b5;
+    font-family: Arial, sans-serif;
+}
+
+#confession-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#confession-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex; /* Initially hidden */
+}
+
+#confession-link {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d59fca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
